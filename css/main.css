@@ -70,7 +70,10 @@ body {
   background-position: 0 bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 598px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 668px;
   overflow: auto;
 }
 .introduction h1 {
